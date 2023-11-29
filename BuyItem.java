@@ -51,7 +51,7 @@ public class BuyItem {
                 System.out.println("Purchase successful!");
                 System.out.println("Purchased Game: " + game.getName());
                 System.out.println("Quantity: " + quantity);
-                System.out.println("Total Payment: $" + totalPay);
+                System.out.println("Total Payment: Ksh" + totalPay);
             } else {
                 System.out.println("Insufficient balance. Please add funds to your account.");
             }
@@ -63,6 +63,7 @@ public class BuyItem {
         int newBalance = player.getPlayerBalance() - totalPay;
         System.out.println("Your new Balance is: " + newBalance);
     }
+
 
 
 
